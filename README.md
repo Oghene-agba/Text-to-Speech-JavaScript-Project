@@ -28,7 +28,7 @@ The main function for converting text to speech is speak(text, options), where t
 
 Here is an example of how to use the speak() function:
 
-***javascript
+***
 <pre> speak('Hello, world!', {
   pitch: 1.5,
   rate: 0.75,
