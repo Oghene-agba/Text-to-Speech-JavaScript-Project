@@ -14,7 +14,10 @@ This project is a simple text-to-speech converter written in JavaScript. It uses
 
 # Installation
 To use this project in your own code, simply include the text-to-speech.js file in your HTML file:
+
+...bash
 <pre> <script src="text-to-speech.js"></script> </pre>
+...
 
 # Usage
 The main function for converting text to speech is speak(text, options), where text is the string of text to be spoken and options is an optional object that can contain the following properties:
