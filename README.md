@@ -16,7 +16,7 @@ This project is a simple text-to-speech converter written in JavaScript. It uses
 To use this project in your own code, simply include the text-to-speech.js file in your HTML file:
 
 ***
-<pre> <script src="text-to-speech.js"></script> </pre>
+<pre> <script src="app.js"></script> </pre>
 ***
 
 # Usage
@@ -27,6 +27,13 @@ The main function for converting text to speech is speak(text, options), where t
 <li> rate: A number between 0.1 and 10, representing the rate of the synthesized speech. A value of 1 is the default.
 
 Here is an example of how to use the speak() function:
+
+***javascript
+<pre> speak('Hello, world!', {
+  pitch: 1.5,
+  rate: 0.75,
+}); </pre>
+***
 
 # Browser Compatibility
 The Web Speech API is supported in the following web browsers:
