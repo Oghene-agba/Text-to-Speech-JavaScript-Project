@@ -1,0 +1,51 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: arial;
+    font-size: 1rem;
+    margin: 0;
+    background: linear-gradient(to right bottom, #d13cff, #031f6a);
+    color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+.container{
+    width: 680px;
+    text-align: center;
+    padding: 30px;
+
+}
+.box{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+#inputText{
+    width: 100%;
+    height: 200px;
+    resize: none;
+    outline: none;
+    border: none;
+    padding: .8rem;
+    font-size: 1.3rem;
+    margin-bottom: .8rem;
+    border-radius: .8rem;
+}
+#voiceIco{
+    font-size: 50px;
+    color: #fff;
+}
+button{
+    padding: .8rem 1.3rem;
+    background: #0ea4da;
+    border: none;
+    border-radius: .3rem;
+    font-size: 1.8rem;
+    color: #fff;
+    cursor: pointer;
+}
